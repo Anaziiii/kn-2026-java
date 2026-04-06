@@ -2,7 +2,8 @@ package lab3;
 
 import java.util.Scanner;
 
-public class Lab3 {
+public class Applicatin {
+    @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
@@ -19,6 +20,8 @@ public class Lab3 {
         System.out.println(a);
         System.out.println(b);
         System.out.println(c);
-    }
-}
+        scan.close();
 
+    }
+
+}
