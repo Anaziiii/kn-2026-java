@@ -8,7 +8,7 @@ public class Applicatin {
         for (int i = 1; i <= 10; i++) {
             for (int j = 1; j <= 3; j++) {
                 if (i == 2) {
-                    System.out.println("Пропускаємо весь 2-й поверх");
+                    System.out.println("Пропускаємо весь 2 поверх");
                     continue Poverkh;
                 }
                 if (i == 9) {
@@ -21,3 +21,4 @@ public class Applicatin {
 
     }
 }
+
